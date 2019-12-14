@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DateDisplayCellIdentifier" rowHeight="26" id="Cjh-Cs-MHy" customClass="DateDisplayCell" customModule="NHL_Game_Tracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cjh-Cs-MHy" id="l3E-Ux-p3G">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cw9-8R-mMf">
+                        <rect key="frame" x="329" y="12" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="cw9-8R-mMf" secondAttribute="height" multiplier="1:1" id="GZj-Rc-UjJ"/>
+                        </constraints>
+                        <state key="normal" image="Forward"/>
+                        <connections>
+                            <action selector="nextDay:" destination="Cjh-Cs-MHy" eventType="touchUpInside" id="N3l-DX-LaE"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyr-xf-Cim">
+                        <rect key="frame" x="166.5" y="12.5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPC-X5-cBa">
+                        <rect key="frame" x="24" y="12" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="NPC-X5-cBa" secondAttribute="height" multiplier="1:1" id="Ifl-T3-KgB"/>
+                        </constraints>
+                        <state key="normal" image="Back"/>
+                        <connections>
+                            <action selector="previousDay:" destination="Cjh-Cs-MHy" eventType="touchUpInside" id="Nhr-Aj-F4u"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.44327217340000002" green="0.47410082819999999" blue="0.50196588040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="Nyr-xf-Cim" firstAttribute="centerX" secondItem="l3E-Ux-p3G" secondAttribute="centerX" id="0Wv-dk-8wj"/>
+                    <constraint firstItem="Nyr-xf-Cim" firstAttribute="centerY" secondItem="l3E-Ux-p3G" secondAttribute="centerY" id="rHC-lv-RHH"/>
+                    <constraint firstItem="cw9-8R-mMf" firstAttribute="centerY" secondItem="l3E-Ux-p3G" secondAttribute="centerY" id="rdK-sL-xvU"/>
+                    <constraint firstItem="NPC-X5-cBa" firstAttribute="leading" secondItem="l3E-Ux-p3G" secondAttribute="leadingMargin" constant="8" id="s3Q-nU-2pY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cw9-8R-mMf" secondAttribute="trailing" constant="8" id="sjC-kL-hsR"/>
+                    <constraint firstItem="NPC-X5-cBa" firstAttribute="centerY" secondItem="l3E-Ux-p3G" secondAttribute="centerY" id="xsL-5k-Mb1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="Nyr-xf-Cim" id="emD-wm-mSj"/>
+            </connections>
+            <point key="canvasLocation" x="-7.2000000000000002" y="-129.53523238380811"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Back" width="10" height="18"/>
+        <image name="Forward" width="10" height="18"/>
+    </resources>
+</document>

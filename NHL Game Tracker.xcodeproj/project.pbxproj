@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE018E4321DC6E30003AED4A /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE018E4221DC6E30003AED4A /* Schedule.swift */; };
+		FE018E4521DC70A8003AED4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE018E4421DC70A8003AED4A /* Constants.swift */; };
+		FE33765D21E33CEF002A663D /* NHL Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE33765C21E33CEF002A663D /* NHL Teams.swift */; };
+		FE3B59A921D835CC008BE92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B59A821D835CC008BE92F /* AppDelegate.swift */; };
+		FE3B59AB21D835CC008BE92F /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B59AA21D835CC008BE92F /* ScheduleViewController.swift */; };
+		FE3B59AE21D835CC008BE92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B59AC21D835CC008BE92F /* Main.storyboard */; };
+		FE3B59B021D835CD008BE92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B59AF21D835CD008BE92F /* Assets.xcassets */; };
+		FE3B59BF21D86881008BE92F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B59BE21D86881008BE92F /* Game.swift */; };
+		FE3B59C221D96138008BE92F /* GameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3B59C021D96138008BE92F /* GameCell.xib */; };
+		FE3B59C321D96138008BE92F /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B59C121D96138008BE92F /* GameCell.swift */; };
+		FE52E4D421E6B8F500D20C0E /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52E4D221E6B8F500D20C0E /* DatePickerCell.swift */; };
+		FE52E4D521E6B8F500D20C0E /* DateDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52E4D321E6B8F500D20C0E /* DateDisplayCell.swift */; };
+		FE9E49E621ED3C1A0049E8AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E49E521ED3C1A0049E8AF /* Extensions.swift */; };
+		FEC7F90221E14A8500BC2FB6 /* Linescore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7F90121E14A8500BC2FB6 /* Linescore.swift */; };
+		FEDEEA8921DD1A1F0085F7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDEEA8821DD1A1F0085F7AC /* LaunchScreen.storyboard */; };
+		FEDEEA9221DD1AD90085F7AC /* DateDisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDEEA8E21DD1AD90085F7AC /* DateDisplayCell.xib */; };
+		FEDEEA9421DD1AD90085F7AC /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDEEA9021DD1AD90085F7AC /* DatePickerCell.xib */; };
+		FEE748BA21DAE58A00C01229 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE748B921DAE58A00C01229 /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE018E4221DC6E30003AED4A /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		FE018E4421DC70A8003AED4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE0D0C8D2370E5F10004346D /* NHL Game Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NHL Game Tracker.entitlements"; sourceTree = "<group>"; };
+		FE33765C21E33CEF002A663D /* NHL Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NHL Teams.swift"; sourceTree = "<group>"; };
+		FE3B59A521D835CC008BE92F /* NHL Game Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NHL Game Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B59A821D835CC008BE92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE3B59AA21D835CC008BE92F /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		FE3B59AD21D835CC008BE92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3B59AF21D835CD008BE92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3B59B421D835CD008BE92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B59BE21D86881008BE92F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FE3B59C021D96138008BE92F /* GameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameCell.xib; sourceTree = "<group>"; };
+		FE3B59C121D96138008BE92F /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		FE52E4D221E6B8F500D20C0E /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		FE52E4D321E6B8F500D20C0E /* DateDisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateDisplayCell.swift; sourceTree = "<group>"; };
+		FE9E49E521ED3C1A0049E8AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FEC7F90121E14A8500BC2FB6 /* Linescore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linescore.swift; sourceTree = "<group>"; };
+		FEDEEA8821DD1A1F0085F7AC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEDEEA8E21DD1AD90085F7AC /* DateDisplayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateDisplayCell.xib; sourceTree = "<group>"; };
+		FEDEEA9021DD1AD90085F7AC /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		FEE748B921DAE58A00C01229 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3B59A221D835CC008BE92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE018E3D21DB2F78003AED4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEE748B921DAE58A00C01229 /* GameViewController.swift */,
+				FE3B59AA21D835CC008BE92F /* ScheduleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE018E3E21DB2F90003AED4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEEA9521DD1AE40085F7AC /* DatePicker */,
+				FEDEEA8A21DD1A600085F7AC /* Cell */,
+				FE3B59AC21D835CC008BE92F /* Main.storyboard */,
+				FE3B59AF21D835CD008BE92F /* Assets.xcassets */,
+				FEDEEA8821DD1A1F0085F7AC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE018E3F21DB2FB8003AED4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE018E4421DC70A8003AED4A /* Constants.swift */,
+				FE3B59A821D835CC008BE92F /* AppDelegate.swift */,
+				FE9E49E521ED3C1A0049E8AF /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE018E4621DC72F1003AED4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7F90121E14A8500BC2FB6 /* Linescore.swift */,
+				FE3B59BE21D86881008BE92F /* Game.swift */,
+				FE018E4221DC6E30003AED4A /* Schedule.swift */,
+				FE33765C21E33CEF002A663D /* NHL Teams.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE3B599C21D835CC008BE92F = {
+			isa = PBXGroup;
+			children = (
+				FE3B59A721D835CC008BE92F /* NHL Game Tracker */,
+				FE3B59A621D835CC008BE92F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3B59A621D835CC008BE92F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B59A521D835CC008BE92F /* NHL Game Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3B59A721D835CC008BE92F /* NHL Game Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D0C8D2370E5F10004346D /* NHL Game Tracker.entitlements */,
+				FE3B59B421D835CD008BE92F /* Info.plist */,
+				FE018E3F21DB2FB8003AED4A /* Supporting Files */,
+				FE018E3D21DB2F78003AED4A /* Controller */,
+				FE018E3E21DB2F90003AED4A /* View */,
+				FE018E4621DC72F1003AED4A /* Model */,
+			);
+			path = "NHL Game Tracker";
+			sourceTree = "<group>";
+		};
+		FEDEEA8A21DD1A600085F7AC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B59C121D96138008BE92F /* GameCell.swift */,
+				FE3B59C021D96138008BE92F /* GameCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FEDEEA9521DD1AE40085F7AC /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FE52E4D221E6B8F500D20C0E /* DatePickerCell.swift */,
+				FEDEEA9021DD1AD90085F7AC /* DatePickerCell.xib */,
+				FE52E4D321E6B8F500D20C0E /* DateDisplayCell.swift */,
+				FEDEEA8E21DD1AD90085F7AC /* DateDisplayCell.xib */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3B59A421D835CC008BE92F /* NHL Game Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B59B721D835CD008BE92F /* Build configuration list for PBXNativeTarget "NHL Game Tracker" */;
+			buildPhases = (
+				FE3B59A121D835CC008BE92F /* Sources */,
+				FE3B59A221D835CC008BE92F /* Frameworks */,
+				FE3B59A321D835CC008BE92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NHL Game Tracker";
+			productName = "NHL Game Tracker";
+			productReference = FE3B59A521D835CC008BE92F /* NHL Game Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3B599D21D835CC008BE92F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Terry Dengis";
+				TargetAttributes = {
+					FE3B59A421D835CC008BE92F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = FE3B59A021D835CC008BE92F /* Build configuration list for PBXProject "NHL Game Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3B599C21D835CC008BE92F;
+			productRefGroup = FE3B59A621D835CC008BE92F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3B59A421D835CC008BE92F /* NHL Game Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3B59A321D835CC008BE92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDEEA9221DD1AD90085F7AC /* DateDisplayCell.xib in Resources */,
+				FEDEEA9421DD1AD90085F7AC /* DatePickerCell.xib in Resources */,
+				FE3B59C221D96138008BE92F /* GameCell.xib in Resources */,
+				FEDEEA8921DD1A1F0085F7AC /* LaunchScreen.storyboard in Resources */,
+				FE3B59B021D835CD008BE92F /* Assets.xcassets in Resources */,
+				FE3B59AE21D835CC008BE92F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3B59A121D835CC008BE92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC7F90221E14A8500BC2FB6 /* Linescore.swift in Sources */,
+				FE018E4321DC6E30003AED4A /* Schedule.swift in Sources */,
+				FE3B59BF21D86881008BE92F /* Game.swift in Sources */,
+				FEE748BA21DAE58A00C01229 /* GameViewController.swift in Sources */,
+				FE3B59C321D96138008BE92F /* GameCell.swift in Sources */,
+				FE018E4521DC70A8003AED4A /* Constants.swift in Sources */,
+				FE3B59AB21D835CC008BE92F /* ScheduleViewController.swift in Sources */,
+				FE9E49E621ED3C1A0049E8AF /* Extensions.swift in Sources */,
+				FE3B59A921D835CC008BE92F /* AppDelegate.swift in Sources */,
+				FE33765D21E33CEF002A663D /* NHL Teams.swift in Sources */,
+				FE52E4D521E6B8F500D20C0E /* DateDisplayCell.swift in Sources */,
+				FE52E4D421E6B8F500D20C0E /* DatePickerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE3B59AC21D835CC008BE92F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3B59AD21D835CC008BE92F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3B59B521D835CD008BE92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE3B59B621D835CD008BE92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3B59B821D835CD008BE92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NHL Game Tracker/NHL Game Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 8WA3Q4R937;
+				INFOPLIST_FILE = "NHL Game Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Wavelength.NHL-Game-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3B59B921D835CD008BE92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NHL Game Tracker/NHL Game Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 8WA3Q4R937;
+				INFOPLIST_FILE = "NHL Game Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Wavelength.NHL-Game-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3B59A021D835CC008BE92F /* Build configuration list for PBXProject "NHL Game Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B59B521D835CD008BE92F /* Debug */,
+				FE3B59B621D835CD008BE92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B59B721D835CD008BE92F /* Build configuration list for PBXNativeTarget "NHL Game Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B59B821D835CD008BE92F /* Debug */,
+				FE3B59B921D835CD008BE92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3B599D21D835CC008BE92F /* Project object */;
+}
