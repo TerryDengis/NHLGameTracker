@@ -121,7 +121,7 @@ class ScheduleViewController: UIViewController {
 
         linescores.removeAll()
         let urlString = "\(scheduleURLString)?date=\(date)"
-        print (urlString)
+        print ("fetchSchedule :", urlString)
         guard let url = URL(string: urlString) else { return}
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -140,7 +140,7 @@ class ScheduleViewController: UIViewController {
     
     func fetchLinescore (for gameID: Int, completed:@escaping ()->() ) {
         let urlString = "\(domainURLString)/api/v1/game/\(gameID)/linescore"
-        
+        print("fetchLinescore: ", urlString)
         guard let url = URL(string: urlString) else { return}
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in

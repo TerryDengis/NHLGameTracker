@@ -114,7 +114,7 @@ class GameViewController: UIViewController {
         }
         let xFactor = iceView.frame.width / 200.0
         let yFactor = iceView.frame.height / 85.0
-        print ("the frame \(iceView.frame.width) \(iceView.frame.height)")
+        //print ("the frame \(iceView.frame.width) \(iceView.frame.height)")
 
         if playsArray.count > 0 {
             for playNumber in playsArray[period-1].startIndex ... playsArray[period-1].endIndex {
@@ -525,7 +525,7 @@ class GameViewController: UIViewController {
         activityIndicator.startAnimating()
         activityIndicator.isHidden = false
         let urlString = "\(domainURLString)\(gameDetailLink ?? "")"
-        print (urlString)
+        print ("fetchGameDetail: ", urlString)
         guard let url = URL(string: urlString) else { return}
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             
